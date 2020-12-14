@@ -4,7 +4,6 @@
 This is HardNet local patch descriptor. The training code is based on PyTorch TFeat implementation
 https://github.com/edgarriba/examples/tree/master/triplet
 by Edgar Riba.
-
 If you use this code, please cite 
 @article{HardNet2017,
  author = {Anastasiya Mishchuk, Dmytro Mishkin, Filip Radenovic, Jiri Matas},
@@ -64,7 +63,7 @@ parser.add_argument('--w1bsroot', type=str,
 parser.add_argument('--dataroot', type=str,
                     default='data/sets/',
                     help='path to dataset')
-parser.add_argument('--enable-logging',type=str2bool, default=False,
+parser.add_argument('--enable-logging',type=str2bool, default=True,
                     help='output to tensorlogger')
 parser.add_argument('--log-dir', default='data/logs/',
                     help='folder to output log')
