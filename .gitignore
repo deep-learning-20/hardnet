@@ -12,3 +12,6 @@ data/
 *.iml
 *.swp
 *.pyc
+
+# VSCode
+.vscode
