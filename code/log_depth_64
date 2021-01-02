@@ -1,0 +1,542 @@
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13305095: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 13:07:55 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 13:08:07 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 13:08:07 2021
+Terminated at Sat Jan  2 13:08:16 2021
+Results reported at Sat Jan  2 13:08:16 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.63 sec.
+    Max Memory :                                 486 MB
+    Average Memory :                             239.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65050.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   33 sec.
+    Turnaround time :                            21 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+PermissionError: [Errno 13] Permission denied: '/cluster/scratch/tianhu/hardnet/code/megadepth_utils/train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13305187: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 13:18:19 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 13:18:37 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 13:18:37 2021
+Terminated at Sat Jan  2 13:18:43 2021
+Results reported at Sat Jan  2 13:18:43 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.26 sec.
+    Max Memory :                                 129 MB
+    Average Memory :                             94.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65407.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                9
+    Run time :                                   31 sec.
+    Turnaround time :                            24 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+PermissionError: [Errno 13] Permission denied: '/cluster/scratch/tianhu/hardnet/code/megadepth_utils/train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13305209: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 13:29:20 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 13:29:36 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 13:29:36 2021
+Terminated at Sat Jan  2 13:29:42 2021
+Results reported at Sat Jan  2 13:29:42 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.23 sec.
+    Max Memory :                                 130 MB
+    Average Memory :                             107.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65406.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                9
+    Run time :                                   28 sec.
+    Turnaround time :                            22 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+PermissionError: [Errno 13] Permission denied: '/cluster/scratch/tianhu/hardnet/code/megadepth_utils/train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13305210: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 13:32:36 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 13:32:37 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 13:32:37 2021
+Terminated at Sat Jan  2 13:32:43 2021
+Results reported at Sat Jan  2 13:32:43 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.85 sec.
+    Max Memory :                                 129 MB
+    Average Memory :                             107.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65407.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                9
+    Run time :                                   29 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'megadepth_utils/train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13306142: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 14:13:07 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 14:13:37 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 14:13:37 2021
+Terminated at Sat Jan  2 14:13:46 2021
+Results reported at Sat Jan  2 14:13:46 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.00 sec.
+    Max Memory :                                 487 MB
+    Average Memory :                             219.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65049.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   31 sec.
+    Turnaround time :                            39 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'megadepth_utils/train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13306390: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 14:18:13 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 14:18:36 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 14:18:36 2021
+Terminated at Sat Jan  2 14:18:43 2021
+Results reported at Sat Jan  2 14:18:43 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.07 sec.
+    Max Memory :                                 134 MB
+    Average Memory :                             101.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65402.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                9
+    Run time :                                   26 sec.
+    Turnaround time :                            30 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13306407: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 14:21:32 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 14:21:37 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 14:21:37 2021
+Terminated at Sat Jan  2 14:21:44 2021
+Results reported at Sat Jan  2 14:21:44 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.15 sec.
+    Max Memory :                                 129 MB
+    Average Memory :                             88.00 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65407.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                9
+    Run time :                                   25 sec.
+    Turnaround time :                            12 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 537, in <module>
+    image_size=args.imageSize
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 34, in __init__
+    with open(scene_list_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './train_scenes.txt'
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13306424: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 14:23:46 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 14:24:06 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 14:24:06 2021
+Terminated at Sat Jan  2 14:39:31 2021
+Results reported at Sat Jan  2 14:39:31 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   883.96 sec.
+    Max Memory :                                 23363 MB
+    Average Memory :                             15372.75 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               42173.00 MB
+    Max Swap :                                   -
+    Max Processes :                              10
+    Max Threads :                                20
+    Run time :                                   946 sec.
+    Turnaround time :                            945 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+  0%|          | 0/77 [00:00<?, ?it/s]  1%|▏         | 1/77 [00:03<04:08,  3.26s/it]  3%|▎         | 2/77 [00:07<04:22,  3.50s/it]  4%|▍         | 3/77 [00:09<03:46,  3.06s/it]  5%|▌         | 4/77 [00:10<03:07,  2.57s/it]  6%|▋         | 5/77 [00:18<04:30,  3.75s/it]  8%|▊         | 6/77 [00:19<03:50,  3.25s/it]  9%|▉         | 7/77 [00:20<03:25,  2.94s/it] 10%|█         | 8/77 [00:21<03:03,  2.66s/it] 12%|█▏        | 9/77 [00:22<02:52,  2.53s/it] 13%|█▎        | 10/77 [00:24<02:41,  2.41s/it] 14%|█▍        | 11/77 [00:26<02:38,  2.40s/it] 16%|█▌        | 12/77 [00:29<02:37,  2.43s/it] 17%|█▋        | 13/77 [00:31<02:34,  2.41s/it] 18%|█▊        | 14/77 [00:32<02:25,  2.32s/it] 19%|█▉        | 15/77 [00:35<02:26,  2.37s/it] 21%|██        | 16/77 [00:37<02:22,  2.33s/it] 22%|██▏       | 17/77 [00:38<02:16,  2.28s/it] 23%|██▎       | 18/77 [00:40<02:14,  2.27s/it] 25%|██▍       | 19/77 [00:42<02:09,  2.24s/it] 26%|██▌       | 20/77 [00:43<02:05,  2.19s/it] 27%|██▋       | 21/77 [00:44<01:57,  2.10s/it] 29%|██▊       | 22/77 [00:54<02:16,  2.48s/it] 30%|██▉       | 23/77 [00:56<02:12,  2.46s/it] 31%|███       | 24/77 [00:57<02:07,  2.41s/it] 32%|███▏      | 25/77 [00:57<02:00,  2.32s/it] 34%|███▍      | 26/77 [00:58<01:54,  2.24s/it] 35%|███▌      | 27/77 [01:00<01:52,  2.25s/it] 36%|███▋      | 28/77 [01:01<01:48,  2.21s/it] 38%|███▊      | 29/77 [01:03<01:44,  2.19s/it] 39%|███▉      | 30/77 [01:03<01:39,  2.12s/it] 40%|████      | 31/77 [01:03<01:34,  2.06s/it] 42%|████▏     | 32/77 [01:06<01:33,  2.07s/it] 43%|████▎     | 33/77 [01:07<01:29,  2.04s/it] 44%|████▍     | 34/77 [01:09<01:27,  2.03s/it] 47%|████▋     | 36/77 [01:09<01:19,  1.94s/it] 48%|████▊     | 37/77 [01:10<01:15,  1.90s/it] 49%|████▉     | 38/77 [01:13<01:15,  1.95s/it] 51%|█████     | 39/77 [01:14<01:12,  1.91s/it] 52%|█████▏    | 40/77 [01:20<01:14,  2.02s/it] 53%|█████▎    | 41/77 [01:22<01:12,  2.01s/it] 55%|█████▍    | 42/77 [01:25<01:11,  2.04s/it] 56%|█████▌    | 43/77 [01:27<01:08,  2.02s/it] 57%|█████▋    | 44/77 [01:27<01:05,  2.00s/it] 58%|█████▊    | 45/77 [01:32<01:05,  2.06s/it] 60%|█████▉    | 46/77 [01:34<01:03,  2.06s/it] 61%|██████    | 47/77 [01:36<01:01,  2.06s/it] 62%|██████▏   | 48/77 [01:38<00:59,  2.04s/it] 64%|██████▎   | 49/77 [01:38<00:56,  2.01s/it] 65%|██████▍   | 50/77 [01:40<00:54,  2.01s/it] 66%|██████▌   | 51/77 [01:41<00:51,  1.99s/it] 68%|██████▊   | 52/77 [01:43<00:49,  1.98s/it] 69%|██████▉   | 53/77 [01:46<00:48,  2.01s/it] 70%|███████   | 54/77 [01:50<00:46,  2.04s/it] 71%|███████▏  | 55/77 [01:52<00:44,  2.04s/it] 73%|███████▎  | 56/77 [01:52<00:42,  2.01s/it] 74%|███████▍  | 57/77 [01:54<00:40,  2.00s/it] 75%|███████▌  | 58/77 [01:55<00:37,  2.00s/it] 77%|███████▋  | 59/77 [01:59<00:36,  2.02s/it] 78%|███████▊  | 60/77 [02:01<00:34,  2.02s/it] 79%|███████▉  | 61/77 [02:03<00:32,  2.02s/it] 81%|████████  | 62/77 [02:03<00:29,  1.99s/it] 82%|████████▏ | 63/77 [02:04<00:27,  1.98s/it] 83%|████████▎ | 64/77 [02:05<00:25,  1.97s/it] 84%|████████▍ | 65/77 [02:06<00:23,  1.94s/it] 86%|████████▌ | 66/77 [02:07<00:21,  1.94s/it] 87%|████████▋ | 67/77 [02:09<00:19,  1.93s/it] 88%|████████▊ | 68/77 [02:10<00:17,  1.92s/it] 90%|████████▉ | 69/77 [02:11<00:15,  1.90s/it] 91%|█████████ | 70/77 [02:13<00:13,  1.91s/it] 92%|█████████▏| 71/77 [02:14<00:11,  1.89s/it] 94%|█████████▎| 72/77 [02:17<00:09,  1.90s/it] 95%|█████████▍| 73/77 [02:18<00:07,  1.90s/it] 96%|█████████▌| 74/77 [02:18<00:05,  1.88s/it] 97%|█████████▋| 75/77 [02:19<00:03,  1.86s/it] 99%|█████████▊| 76/77 [02:19<00:01,  1.84s/it]100%|██████████| 77/77 [02:20<00:00,  1.82s/it]
+  0%|          | 0/118 [00:00<?, ?it/s]  1%|          | 1/118 [00:16<32:48, 16.82s/it]  2%|▏         | 2/118 [00:21<20:49, 10.77s/it]  3%|▎         | 3/118 [00:32<21:03, 10.99s/it]  3%|▎         | 4/118 [00:50<24:08, 12.71s/it]  4%|▍         | 5/118 [01:15<28:27, 15.11s/it]  5%|▌         | 6/118 [01:20<24:54, 13.34s/it]  6%|▌         | 7/118 [01:31<24:15, 13.11s/it]  7%|▋         | 8/118 [01:56<26:41, 14.56s/it]  8%|▊         | 9/118 [02:11<26:38, 14.66s/it]  8%|▊         | 10/118 [02:18<24:55, 13.85s/it]  9%|▉         | 11/118 [02:26<23:42, 13.30s/it] 10%|█         | 12/118 [02:30<22:10, 12.55s/it] 11%|█         | 13/118 [02:36<21:01, 12.01s/it] 12%|█▏        | 14/118 [02:42<20:06, 11.61s/it] 13%|█▎        | 15/118 [02:47<19:06, 11.13s/it] 14%|█▎        | 16/118 [02:48<17:52, 10.51s/it] 14%|█▍        | 17/118 [02:50<16:54, 10.04s/it] 15%|█▌        | 18/118 [02:53<16:05,  9.66s/it] 16%|█▌        | 19/118 [02:55<15:14,  9.24s/it] 17%|█▋        | 20/118 [03:01<14:47,  9.05s/it] 18%|█▊        | 21/118 [03:04<14:13,  8.80s/it] 19%|█▊        | 22/118 [03:09<13:47,  8.62s/it] 19%|█▉        | 23/118 [03:36<14:52,  9.40s/it] 20%|██        | 24/118 [03:48<14:55,  9.53s/it] 21%|██        | 25/118 [03:59<14:51,  9.58s/it] 22%|██▏       | 26/118 [04:01<14:15,  9.30s/it] 23%|██▎       | 27/118 [04:06<13:49,  9.12s/it] 24%|██▎       | 28/118 [04:16<13:44,  9.17s/it] 25%|██▍       | 29/118 [04:18<13:12,  8.90s/it] 25%|██▌       | 30/118 [04:20<12:44,  8.69s/it] 26%|██▋       | 31/118 [04:21<12:14,  8.44s/it] 27%|██▋       | 32/118 [04:25<11:52,  8.28s/it] 28%|██▊       | 33/118 [04:28<11:30,  8.13s/it] 29%|██▉       | 34/118 [04:34<11:18,  8.08s/it] 30%|██▉       | 35/118 [04:35<10:53,  7.88s/it] 31%|███       | 36/118 [04:49<11:00,  8.05s/it] 31%|███▏      | 37/118 [04:58<10:52,  8.06s/it] 32%|███▏      | 38/118 [05:04<10:41,  8.01s/it] 33%|███▎      | 39/118 [05:08<10:25,  7.92s/it] 34%|███▍      | 40/118 [05:50<11:23,  8.76s/it] 35%|███▍      | 41/118 [05:54<11:06,  8.65s/it] 36%|███▌      | 42/118 [05:57<10:46,  8.50s/it] 36%|███▋      | 43/118 [05:58<10:25,  8.34s/it] 38%|███▊      | 45/118 [06:00<09:44,  8.01s/it] 39%|███▉      | 46/118 [06:07<09:35,  8.00s/it] 40%|███▉      | 47/118 [06:10<09:20,  7.89s/it] 41%|████      | 48/118 [06:16<09:08,  7.84s/it] 42%|████▏     | 50/118 [06:27<08:47,  7.76s/it] 43%|████▎     | 51/118 [06:35<08:39,  7.76s/it] 44%|████▍     | 52/118 [06:38<08:25,  7.65s/it] 45%|████▍     | 53/118 [06:43<08:15,  7.62s/it] 46%|████▌     | 54/118 [06:45<08:00,  7.51s/it] 47%|████▋     | 55/118 [06:53<07:53,  7.52s/it] 47%|████▋     | 56/118 [07:06<07:52,  7.62s/it] 48%|████▊     | 57/118 [07:14<07:44,  7.62s/it] 49%|████▉     | 58/118 [07:20<07:35,  7.59s/it] 50%|█████     | 59/118 [07:27<07:27,  7.59s/it] 51%|█████     | 60/118 [07:36<07:20,  7.60s/it] 52%|█████▏    | 61/118 [07:46<07:16,  7.65s/it] 53%|█████▎    | 62/118 [07:52<07:07,  7.63s/it] 53%|█████▎    | 63/118 [07:54<06:54,  7.53s/it] 54%|█████▍    | 64/118 [07:57<06:42,  7.46s/it] 55%|█████▌    | 65/118 [08:07<06:37,  7.50s/it] 56%|█████▌    | 66/118 [08:09<06:26,  7.42s/it] 57%|█████▋    | 67/118 [08:13<06:15,  7.36s/it] 58%|█████▊    | 68/118 [08:19<06:06,  7.34s/it] 58%|█████▊    | 69/118 [08:24<05:58,  7.32s/it] 59%|█████▉    | 70/118 [08:29<05:49,  7.28s/it] 60%|██████    | 71/118 [08:34<05:40,  7.24s/it] 61%|██████    | 72/118 [08:45<05:35,  7.30s/it] 62%|██████▏   | 73/118 [08:54<05:29,  7.33s/it] 63%|██████▎   | 74/118 [08:59<05:20,  7.28s/it] 64%|██████▎   | 75/118 [09:04<05:11,  7.26s/it] 64%|██████▍   | 76/118 [09:08<05:02,  7.21s/it] 65%|██████▌   | 77/118 [09:09<04:52,  7.14s/it] 66%|██████▌   | 78/118 [09:12<04:43,  7.09s/it] 67%|██████▋   | 79/118 [09:22<04:37,  7.12s/it] 68%|██████▊   | 80/118 [09:24<04:28,  7.06s/it] 69%|██████▊   | 81/118 [09:28<04:19,  7.01s/it] 69%|██████▉   | 82/118 [09:35<04:12,  7.01s/it] 70%|███████   | 83/118 [09:50<04:09,  7.12s/it] 71%|███████   | 84/118 [09:53<04:00,  7.07s/it] 72%|███████▏  | 85/118 [09:58<03:52,  7.04s/it] 73%|███████▎  | 86/118 [10:00<03:43,  6.98s/it] 74%|███████▎  | 87/118 [10:05<03:35,  6.96s/it] 75%|███████▍  | 88/118 [10:08<03:27,  6.92s/it] 75%|███████▌  | 89/118 [10:16<03:20,  6.93s/it] 76%|███████▋  | 90/118 [10:20<03:13,  6.90s/it] 77%|███████▋  | 91/118 [10:33<03:07,  6.96s/it] 78%|███████▊  | 92/118 [10:37<03:00,  6.93s/it] 79%|███████▉  | 93/118 [10:38<02:51,  6.86s/it] 80%|███████▉  | 94/118 [10:42<02:44,  6.84s/it] 81%|████████  | 95/118 [10:48<02:36,  6.83s/it] 81%|████████▏ | 96/118 [10:54<02:30,  6.82s/it] 82%|████████▏ | 97/118 [10:56<02:22,  6.76s/it] 83%|████████▎ | 98/118 [10:56<02:14,  6.70s/it] 84%|████████▍ | 99/118 [10:59<02:06,  6.67s/it] 85%|████████▍ | 100/118 [11:07<02:00,  6.68s/it] 86%|████████▋ | 102/118 [11:16<01:46,  6.63s/it] 87%|████████▋ | 103/118 [11:19<01:38,  6.59s/it] 88%|████████▊ | 104/118 [11:23<01:32,  6.57s/it] 89%|████████▉ | 105/118 [11:24<01:24,  6.52s/it] 90%|████████▉ | 106/118 [11:25<01:17,  6.47s/it] 91%|█████████ | 107/118 [11:28<01:10,  6.44s/it] 92%|█████████▏| 108/118 [11:34<01:04,  6.43s/it] 92%|█████████▏| 109/118 [11:38<00:57,  6.41s/it] 93%|█████████▎| 110/118 [11:39<00:50,  6.36s/it] 94%|█████████▍| 111/118 [11:41<00:44,  6.32s/it] 95%|█████████▍| 112/118 [11:43<00:37,  6.28s/it] 96%|█████████▌| 113/118 [11:45<00:31,  6.25s/it] 97%|█████████▋| 114/118 [11:47<00:24,  6.21s/it] 97%|█████████▋| 115/118 [11:49<00:18,  6.17s/it] 98%|█████████▊| 116/118 [11:51<00:12,  6.14s/it] 99%|█████████▉| 117/118 [11:54<00:06,  6.11s/it]100%|██████████| 118/118 [12:03<00:00,  6.13s/it]
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+
+parsed options:
+{'w1bsroot': '/cluster/scratch/rthakur/dl/hardnet/code/../data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': True, 'log_dir': 'data/logs_megadepth_RGBD_res64_new', 'model_dir': 'data/models_megadepth_RGBD_res64_new/', 'experiment_name': 'megadepth_RGBD_res64_new/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 64, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 1000, 'anchorswap': True, 'batch_size': 256, 'test_batch_size': 256, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '0', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+Building the validation dataset...
+7500
+Building a new training dataset...
+0it [00:00, ?it/s]Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 605, in <module>
+    main(train_loader, test_loader,training_dataset, validation_dataset,model, logger, file_logger)
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 479, in main
+    train(train_loader, model, optimizer1, epoch, logger, triplet_flag)
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 268, in train
+    for batch_idx, data in pbar:
+  File "/cluster/home/tianhu/.local/lib64/python3.6/site-packages/tqdm/_tqdm.py", line 897, in __iter__
+    for obj in iterable:
+  File "/cluster/home/tianhu/.local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 286, in __next__
+    return self._process_next_batch(batch)
+  File "/cluster/home/tianhu/.local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 307, in _process_next_batch
+    raise batch.exc_type(batch.exc_msg)
+FileNotFoundError: Traceback (most recent call last):
+  File "/cluster/home/tianhu/.local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 57, in _worker_loop
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "/cluster/home/tianhu/.local/lib64/python3.6/site-packages/torch/utils/data/dataloader.py", line 57, in <listcomp>
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 232, in __getitem__
+    ) = self.recover_pair(self.dataset[idx])
+  File "/cluster/scratch/rthakur/dl/hardnet/code/lib/dataset_depthconcat.py", line 158, in recover_pair
+    image1 = Image.open(image_path1)
+  File "/cluster/apps/python/3.6.1/lib64/python3.6/site-packages/PIL/Image.py", line 2548, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/cluster/scratch/rthakur/dl/Undistorted_SfM/5017/images/P1010355.JPG'
+
+Sender: LSF System <lsfadmin@lo-s4-034>
+Subject: Job 13306932: <sh runhardnet_STN_64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_STN_64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 15:03:32 2021
+Job was executed on host(s) <4*lo-s4-034>, in queue <gpu.4h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 15:06:06 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 15:06:06 2021
+Terminated at Sat Jan  2 15:06:09 2021
+Results reported at Sat Jan  2 15:06:09 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_STN_64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.35 sec.
+    Max Memory :                                 19 MB
+    Average Memory :                             -
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               65517.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   2 sec.
+    Turnaround time :                            157 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_STN_64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+  File "./code/HardNet_MegaDepth_validloss_STN_64.py", line 237
+    self.fc_loc = nn.Sequential(
+       ^
+SyntaxError: invalid syntax
+Sender: LSF System <lsfadmin@lo-s4-023>
+Subject: Job 13306899: <sh runhardnet_depth64.sh> in cluster <leonhard> Done
+
+Job <sh runhardnet_depth64.sh> was submitted from host <lo-login-02> by user <tianhu> in cluster <leonhard> at Sat Jan  2 14:58:25 2021
+Job was executed on host(s) <4*lo-s4-023>, in queue <gpu.24h>, as user <tianhu> in cluster <leonhard> at Sat Jan  2 15:10:36 2021
+</cluster/home/tianhu> was used as the home directory.
+</cluster/scratch/rthakur/dl/hardnet/code> was used as the working directory.
+Started at Sat Jan  2 15:10:36 2021
+Terminated at Sat Jan  2 15:26:32 2021
+Results reported at Sat Jan  2 15:26:32 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+sh runhardnet_depth64.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   989.90 sec.
+    Max Memory :                                 29508 MB
+    Average Memory :                             17397.88 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               36028.00 MB
+    Max Swap :                                   -
+    Max Processes :                              10
+    Max Threads :                                20
+    Run time :                                   976 sec.
+    Turnaround time :                            1687 sec.
+
+The output (if any) follows:
+
+Cloning into 'wxbs-descriptors-benchmark'...
+fatal: unable to access 'https://github.com/ducha-aiki/wxbs-descriptors-benchmark.git/': Failed to connect to github.com port 443: Connection refused
+chmod: cannot access 'wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh': No such file or directory
+runhardnet_depth64.sh: line 16: ./wxbs-descriptors-benchmark/data/download_W1BS_dataset.sh: No such file or directory
+mv: cannot stat 'W1BS': No such file or directory
+./code/HardNet_MegaDepth_validloss_depth.py:256: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(m.weight.data, gain=0.6)
+  0%|          | 0/77 [00:00<?, ?it/s]  1%|▏         | 1/77 [00:02<03:41,  2.92s/it]  3%|▎         | 2/77 [00:06<03:54,  3.13s/it]  4%|▍         | 3/77 [00:08<03:26,  2.78s/it]  5%|▌         | 4/77 [00:09<02:52,  2.37s/it]  6%|▋         | 5/77 [00:16<04:00,  3.33s/it]  8%|▊         | 6/77 [00:17<03:25,  2.89s/it]  9%|▉         | 7/77 [00:18<03:02,  2.61s/it] 10%|█         | 8/77 [00:18<02:42,  2.36s/it] 12%|█▏        | 9/77 [00:20<02:32,  2.24s/it] 13%|█▎        | 10/77 [00:21<02:22,  2.13s/it] 14%|█▍        | 11/77 [00:23<02:21,  2.14s/it] 16%|█▌        | 12/77 [00:27<02:29,  2.31s/it] 17%|█▋        | 13/77 [00:30<02:28,  2.32s/it] 18%|█▊        | 14/77 [00:31<02:20,  2.23s/it] 19%|█▉        | 15/77 [00:33<02:20,  2.26s/it] 21%|██        | 16/77 [00:35<02:14,  2.21s/it] 22%|██▏       | 17/77 [00:36<02:09,  2.16s/it] 23%|██▎       | 18/77 [00:38<02:06,  2.15s/it] 25%|██▍       | 19/77 [00:40<02:02,  2.11s/it] 26%|██▌       | 20/77 [00:41<01:57,  2.07s/it] 29%|██▊       | 22/77 [00:51<02:08,  2.33s/it] 30%|██▉       | 23/77 [00:53<02:04,  2.31s/it] 31%|███       | 24/77 [00:54<02:00,  2.28s/it] 32%|███▏      | 25/77 [00:54<01:54,  2.20s/it] 34%|███▍      | 26/77 [00:55<01:48,  2.12s/it] 35%|███▌      | 27/77 [00:57<01:46,  2.13s/it] 36%|███▋      | 28/77 [00:58<01:42,  2.09s/it] 38%|███▊      | 29/77 [01:00<01:39,  2.07s/it] 39%|███▉      | 30/77 [01:00<01:34,  2.02s/it] 40%|████      | 31/77 [01:00<01:30,  1.96s/it] 42%|████▏     | 32/77 [01:02<01:28,  1.96s/it] 43%|████▎     | 33/77 [01:03<01:24,  1.93s/it] 44%|████▍     | 34/77 [01:05<01:22,  1.92s/it] 47%|████▋     | 36/77 [01:05<01:14,  1.83s/it] 48%|████▊     | 37/77 [01:06<01:11,  1.79s/it] 49%|████▉     | 38/77 [01:09<01:11,  1.84s/it] 51%|█████     | 39/77 [01:10<01:08,  1.80s/it] 52%|█████▏    | 40/77 [01:16<01:10,  1.91s/it] 53%|█████▎    | 41/77 [01:17<01:08,  1.90s/it] 55%|█████▍    | 42/77 [01:20<01:07,  1.92s/it] 56%|█████▌    | 43/77 [01:22<01:05,  1.92s/it] 57%|█████▋    | 44/77 [01:23<01:02,  1.89s/it] 58%|█████▊    | 45/77 [01:27<01:02,  1.95s/it] 60%|█████▉    | 46/77 [01:29<01:00,  1.95s/it] 61%|██████    | 47/77 [01:31<00:58,  1.95s/it] 62%|██████▏   | 48/77 [01:32<00:55,  1.93s/it] 64%|██████▎   | 49/77 [01:33<00:53,  1.90s/it] 65%|██████▍   | 50/77 [01:34<00:51,  1.90s/it] 66%|██████▌   | 51/77 [01:36<00:49,  1.89s/it] 68%|██████▊   | 52/77 [01:38<00:47,  1.89s/it] 69%|██████▉   | 53/77 [01:41<00:45,  1.92s/it] 70%|███████   | 54/77 [01:44<00:44,  1.94s/it] 71%|███████▏  | 55/77 [01:46<00:42,  1.94s/it] 73%|███████▎  | 56/77 [01:47<00:40,  1.91s/it] 74%|███████▍  | 57/77 [01:48<00:38,  1.91s/it] 75%|███████▌  | 58/77 [01:50<00:36,  1.90s/it] 77%|███████▋  | 59/77 [01:53<00:34,  1.92s/it] 78%|███████▊  | 60/77 [01:54<00:32,  1.92s/it] 79%|███████▉  | 61/77 [01:56<00:30,  1.91s/it] 81%|████████  | 62/77 [01:56<00:28,  1.89s/it] 82%|████████▏ | 63/77 [01:58<00:26,  1.87s/it] 83%|████████▎ | 64/77 [01:58<00:24,  1.86s/it] 84%|████████▍ | 65/77 [01:59<00:22,  1.84s/it] 86%|████████▌ | 66/77 [02:00<00:20,  1.83s/it] 87%|████████▋ | 67/77 [02:02<00:18,  1.82s/it] 88%|████████▊ | 68/77 [02:03<00:16,  1.82s/it] 90%|████████▉ | 69/77 [02:04<00:14,  1.80s/it] 91%|█████████ | 70/77 [02:06<00:12,  1.81s/it] 92%|█████████▏| 71/77 [02:07<00:10,  1.79s/it] 94%|█████████▎| 72/77 [02:09<00:09,  1.80s/it] 95%|█████████▍| 73/77 [02:10<00:07,  1.79s/it] 96%|█████████▌| 74/77 [02:11<00:05,  1.77s/it] 97%|█████████▋| 75/77 [02:11<00:03,  1.76s/it] 99%|█████████▊| 76/77 [02:11<00:01,  1.74s/it]100%|██████████| 77/77 [02:12<00:00,  1.72s/it]
+  0%|          | 0/118 [00:00<?, ?it/s]  1%|          | 1/118 [00:15<30:39, 15.72s/it]  2%|▏         | 2/118 [00:19<19:14,  9.95s/it]  3%|▎         | 3/118 [00:30<19:13, 10.03s/it]  3%|▎         | 4/118 [00:47<22:20, 11.76s/it]  4%|▍         | 5/118 [01:09<26:20, 13.98s/it]  5%|▌         | 6/118 [01:14<23:07, 12.39s/it]  6%|▌         | 7/118 [01:24<22:26, 12.13s/it]  7%|▋         | 8/118 [01:48<24:47, 13.53s/it]  8%|▊         | 9/118 [02:02<24:47, 13.65s/it]  8%|▊         | 10/118 [02:08<23:12, 12.89s/it]  9%|▉         | 11/118 [02:15<22:02, 12.36s/it] 10%|█         | 12/118 [02:20<20:38, 11.69s/it] 11%|█         | 13/118 [02:25<19:35, 11.20s/it] 12%|█▏        | 14/118 [02:31<18:45, 10.82s/it] 13%|█▎        | 15/118 [02:35<17:47, 10.36s/it] 14%|█▎        | 16/118 [02:36<16:38,  9.79s/it] 14%|█▍        | 17/118 [02:39<15:44,  9.36s/it] 15%|█▌        | 18/118 [02:42<15:01,  9.02s/it] 16%|█▌        | 19/118 [02:43<14:14,  8.63s/it] 17%|█▋        | 20/118 [02:49<13:51,  8.48s/it] 18%|█▊        | 21/118 [02:53<13:19,  8.24s/it] 19%|█▊        | 22/118 [02:57<12:54,  8.07s/it] 19%|█▉        | 23/118 [03:21<13:53,  8.77s/it] 20%|██        | 24/118 [03:33<13:57,  8.90s/it] 21%|██        | 25/118 [03:43<13:51,  8.94s/it] 22%|██▏       | 26/118 [03:45<13:17,  8.67s/it] 23%|██▎       | 27/118 [03:49<12:54,  8.51s/it] 24%|██▎       | 28/118 [03:59<12:49,  8.55s/it] 25%|██▍       | 29/118 [04:01<12:19,  8.31s/it] 25%|██▌       | 30/118 [04:03<11:53,  8.11s/it] 26%|██▋       | 31/118 [04:04<11:25,  7.88s/it] 27%|██▋       | 32/118 [04:08<11:06,  7.75s/it] 28%|██▊       | 33/118 [04:11<10:46,  7.61s/it] 29%|██▉       | 34/118 [04:17<10:35,  7.56s/it] 30%|██▉       | 35/118 [04:18<10:13,  7.39s/it] 31%|███       | 36/118 [04:32<10:20,  7.57s/it] 31%|███▏      | 37/118 [04:40<10:14,  7.59s/it] 32%|███▏      | 38/118 [04:47<10:05,  7.57s/it] 33%|███▎      | 39/118 [04:51<09:50,  7.48s/it] 34%|███▍      | 40/118 [05:31<10:45,  8.28s/it] 35%|███▍      | 41/118 [05:35<10:29,  8.18s/it] 36%|███▌      | 42/118 [05:37<10:10,  8.03s/it] 36%|███▋      | 43/118 [05:38<09:50,  7.88s/it] 38%|███▊      | 45/118 [05:40<09:12,  7.58s/it] 39%|███▉      | 46/118 [05:47<09:04,  7.56s/it] 40%|███▉      | 47/118 [05:50<08:49,  7.45s/it] 41%|████      | 48/118 [05:55<08:38,  7.41s/it] 42%|████▏     | 50/118 [06:06<08:18,  7.33s/it] 43%|████▎     | 51/118 [06:13<08:11,  7.33s/it] 44%|████▍     | 52/118 [06:15<07:57,  7.23s/it] 45%|████▍     | 53/118 [06:21<07:48,  7.20s/it] 46%|████▌     | 54/118 [06:23<07:34,  7.10s/it] 47%|████▋     | 55/118 [06:30<07:27,  7.11s/it] 47%|████▋     | 56/118 [06:43<07:26,  7.20s/it] 48%|████▊     | 57/118 [06:50<07:19,  7.20s/it] 49%|████▉     | 58/118 [06:55<07:10,  7.17s/it] 50%|█████     | 59/118 [07:03<07:03,  7.18s/it] 51%|█████     | 60/118 [07:11<06:56,  7.19s/it] 52%|█████▏    | 61/118 [07:20<06:51,  7.23s/it] 53%|█████▎    | 62/118 [07:26<06:43,  7.20s/it] 53%|█████▎    | 63/118 [07:28<06:31,  7.11s/it] 54%|█████▍    | 64/118 [07:30<06:20,  7.04s/it] 55%|█████▌    | 65/118 [07:39<06:14,  7.07s/it] 56%|█████▌    | 66/118 [07:42<06:04,  7.00s/it] 57%|█████▋    | 67/118 [07:45<05:54,  6.95s/it] 58%|█████▊    | 68/118 [07:51<05:46,  6.93s/it] 58%|█████▊    | 69/118 [07:56<05:38,  6.90s/it] 59%|█████▉    | 70/118 [08:00<05:29,  6.87s/it] 60%|██████    | 71/118 [08:05<05:21,  6.83s/it] 61%|██████    | 72/118 [08:15<05:16,  6.88s/it] 62%|██████▏   | 73/118 [08:24<05:10,  6.91s/it] 63%|██████▎   | 74/118 [08:28<05:02,  6.87s/it] 64%|██████▎   | 75/118 [08:32<04:53,  6.84s/it] 64%|██████▍   | 76/118 [08:36<04:45,  6.80s/it] 65%|██████▌   | 77/118 [08:37<04:35,  6.73s/it] 66%|██████▌   | 78/118 [08:41<04:27,  6.68s/it] 67%|██████▋   | 79/118 [08:50<04:21,  6.71s/it] 68%|██████▊   | 80/118 [08:52<04:12,  6.65s/it] 69%|██████▊   | 81/118 [08:55<04:04,  6.62s/it] 69%|██████▉   | 82/118 [09:02<03:57,  6.61s/it] 70%|███████   | 83/118 [09:15<03:54,  6.69s/it] 71%|███████   | 84/118 [09:18<03:45,  6.65s/it] 72%|███████▏  | 85/118 [09:23<03:38,  6.63s/it] 73%|███████▎  | 86/118 [09:25<03:30,  6.57s/it] 74%|███████▎  | 87/118 [09:29<03:22,  6.54s/it] 75%|███████▍  | 88/118 [09:32<03:15,  6.51s/it] 75%|███████▌  | 89/118 [09:39<03:08,  6.51s/it] 76%|███████▋  | 90/118 [09:43<03:01,  6.48s/it] 77%|███████▋  | 91/118 [09:55<02:56,  6.55s/it] 78%|███████▊  | 92/118 [09:59<02:49,  6.51s/it] 79%|███████▉  | 93/118 [09:59<02:41,  6.45s/it] 80%|███████▉  | 94/118 [10:04<02:34,  6.43s/it] 81%|████████  | 95/118 [10:09<02:27,  6.42s/it] 81%|████████▏ | 96/118 [10:15<02:21,  6.41s/it] 82%|████████▏ | 97/118 [10:16<02:13,  6.36s/it] 83%|████████▎ | 98/118 [10:17<02:06,  6.30s/it] 84%|████████▍ | 99/118 [10:20<01:59,  6.27s/it] 85%|████████▍ | 100/118 [10:27<01:53,  6.28s/it] 86%|████████▋ | 102/118 [10:35<01:39,  6.23s/it] 87%|████████▋ | 103/118 [10:39<01:33,  6.21s/it] 88%|████████▊ | 104/118 [10:43<01:26,  6.19s/it] 89%|████████▉ | 105/118 [10:43<01:19,  6.13s/it] 90%|████████▉ | 106/118 [10:45<01:13,  6.09s/it] 91%|█████████ | 107/118 [10:48<01:06,  6.06s/it] 92%|█████████▏| 108/118 [10:54<01:00,  6.06s/it] 92%|█████████▏| 109/118 [10:57<00:54,  6.03s/it] 93%|█████████▎| 110/118 [11:00<00:48,  6.00s/it] 94%|█████████▍| 111/118 [11:02<00:41,  5.97s/it] 95%|█████████▍| 112/118 [11:04<00:35,  5.94s/it] 96%|█████████▌| 113/118 [11:07<00:29,  5.90s/it] 97%|█████████▋| 114/118 [11:09<00:23,  5.87s/it] 97%|█████████▋| 115/118 [11:11<00:17,  5.83s/it] 98%|█████████▊| 116/118 [11:13<00:11,  5.80s/it] 99%|█████████▉| 117/118 [11:15<00:05,  5.77s/it]100%|██████████| 118/118 [11:24<00:00,  5.80s/it]
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+
+parsed options:
+{'w1bsroot': '/cluster/scratch/rthakur/dl/hardnet/code/../data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': True, 'log_dir': 'data/logs_megadepth_RGBD_res64_new', 'model_dir': 'data/models_megadepth_RGBD_res64_new/', 'experiment_name': 'megadepth_RGBD_res64_new/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 64, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 1000, 'anchorswap': True, 'batch_size': 256, 'test_batch_size': 256, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '0', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+Building the validation dataset...
+7500
+Building a new training dataset...
+0it [00:00, ?it/s]what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+Traceback (most recent call last):
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 605, in <module>
+    main(train_loader, test_loader,training_dataset, validation_dataset,model, logger, file_logger)
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 479, in main
+    train(train_loader, model, optimizer1, epoch, logger, triplet_flag)
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 281, in train
+    out_a = model(data_a)
+  File "/cluster/home/tianhu/.local/lib64/python3.6/site-packages/torch/nn/modules/module.py", line 491, in __call__
+    result = self.forward(*input, **kwargs)
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 247, in forward
+    input=self.input_norm(input)
+  File "./code/HardNet_MegaDepth_validloss_depth.py", line 239, in input_norm
+    mp=torch.mean(flat[:,3,:][flat[:,3,:].nonzero(as_tuple=True)].view(-1, 1))
+TypeError: nonzero() takes no keyword arguments

@@ -1,0 +1,414 @@
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+
+parsed options:
+{'w1bsroot': '/cluster/scratch/rthakur/dl/hardnet/code/../data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': True, 'log_dir': 'data/logs_megadepth_RGBD_res64_new', 'model_dir': 'data/models_megadepth_RGBD_res64_new/', 'experiment_name': 'megadepth_RGBD_res64_new/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 64, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 1000, 'anchorswap': True, 'batch_size': 256, 'test_batch_size': 256, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '0', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+Building the validation dataset...
+7500
+Building a new training dataset...
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+
+parsed options:
+{'w1bsroot': '/cluster/scratch/rthakur/dl/hardnet/code/../data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': True, 'log_dir': 'data/logs_megadepth_RGBD_res64_new', 'model_dir': 'data/models_megadepth_RGBD_res64_new/', 'experiment_name': 'megadepth_RGBD_res64_new/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 64, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 1000, 'anchorswap': True, 'batch_size': 256, 'test_batch_size': 256, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '0', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+Building the validation dataset...
+7500
+Building a new training dataset...
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+['/cluster/scratch/rthakur/dl/hardnet/code', '/cluster/apps/python/3.6.1/lib64/python36.zip', '/cluster/apps/python/3.6.1/lib64/python3.6', '/cluster/apps/python/3.6.1/lib64/python3.6/lib-dynload', '/cluster/home/tianhu/.local/lib64/python3.6/site-packages', '/cluster/apps/python/3.6.1/lib64/python3.6/site-packages', '/cluster/scratch/rthakur/dl/hardnet/code']
+Using cuda
+
+parsed options:
+{'w1bsroot': '/cluster/scratch/rthakur/dl/hardnet/code/../data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': True, 'log_dir': 'data/logs_megadepth_RGBD_res64_new', 'model_dir': 'data/models_megadepth_RGBD_res64_new/', 'experiment_name': 'megadepth_RGBD_res64_new/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 64, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 1000, 'anchorswap': True, 'batch_size': 256, 'test_batch_size': 256, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '0', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+Building the validation dataset...
+7500
+Building a new training dataset...
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([236, 4, 64, 64])
+what is this size torch.Size([236, 4, 4096])
+what is this size torch.Size([236, 4, 64, 64])
+what is this size torch.Size([236, 4, 4096])
+start validation
+pbar 0it [00:00, ?it/s]
+testset batch_id 0
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+heyheyhey b size 0
+heyheyhey dataset size 30
+testset batch_id 1
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 2
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 3
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 4
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 5
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 6
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 7
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 8
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 9
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 10
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+heyheyhey b size 10
+heyheyhey dataset size 30
+testset batch_id 11
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 12
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 13
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 14
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 15
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 16
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 17
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 18
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 19
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 20
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+heyheyhey b size 20
+heyheyhey dataset size 30
+testset batch_id 21
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 22
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 23
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 24
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 25
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 26
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 27
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 28
+test set size 7500
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+what is this size torch.Size([256, 4, 64, 64])
+what is this size torch.Size([256, 4, 4096])
+testset batch_id 29
+test set size 7500
+what is this size torch.Size([76, 4, 64, 64])
+what is this size torch.Size([76, 4, 4096])
+what is this size torch.Size([76, 4, 64, 64])
+what is this size torch.Size([76, 4, 4096])
+[91mTest set: mean loss: 0.73305404
+[0m
+Building a new training dataset...
